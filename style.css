@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  font: larger;
 }
 
 body {
@@ -78,6 +79,7 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  z-index: 10;
 }
 
 .hamburger-icon {
