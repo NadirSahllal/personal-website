@@ -92,5 +92,19 @@
         text-align: justify;
     }
 
+    .chatbot {
+        right: 0;
+        bottom: 0;
+        width: 80%;
+        height: 80%;
+        border-radius: 0;
+    }
+    .chatbot .chatbox {
+        height: 90%;
+    }
+
+    .chatbot header span {
+        display: block;
+    }
 
 }
