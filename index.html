@@ -6,8 +6,37 @@
     <title>Nadir's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
+    <div class="show-chatbot">
+
+    
+    <button class="chatbot-toggler">
+      <span class="material-symbols-outlined">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot"> 
+      <header>
+        <h2>Chatting Buddy</h2>
+        <span class="material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined"> smart_toy</span>
+          <p>Hi, I'm your Chatting Buddy. <br> How can I help you today?</p>
+        </li>
+        
+      </ul>
+      <div class="input-text">
+        <textarea placeholder="Talk to me ...." required></textarea>
+        <span id="send-btn" class="material-symbols-outlined">send</span>
+      </div>
+    </div>
+  </div>
     <nav id="desktop-nav">
       <div class="logo">Nadir Sahllal</div>
       <div>
@@ -386,6 +415,6 @@
       </nav>
       <p>Copyright &#169; 2024 Nadir Sahllal. All Rights Reserved</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
